@@ -1,0 +1,13 @@
+{
+  "name": "ng2-lite",
+  "version": "1.0.0",
+  "description": "Angular Seed Light Weight version with Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --port 5000",
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "dist": "lite-server"
+  },
+  "author": "Ashok Raja T",
+  "license": "ISC"
+}
